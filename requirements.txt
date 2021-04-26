@@ -9,6 +9,7 @@ distlib==0.3.1
 Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
 Flask-Login==0.5.0
 Flask-Uploads==0.2.1
+Flask-WTF==0.14.3
 greenlet @ file:///C:/ci/greenlet_1611958565931/work
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 itsdangerous @ file:///home/ktietz/src/ci/itsdangerous_1611932585308/work
@@ -28,3 +29,4 @@ virtualenv-clone==0.5.4
 Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
 wincertstore==0.2
+WTForms @ file:///tmp/build/80754af9/wtforms_1597707484216/work

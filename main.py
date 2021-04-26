@@ -13,10 +13,12 @@ from data.orders import Orders
 from data.order_details import Order_details
 from forms.forms import *
 from requests import *
+from flask_ngrok import run_with_ngrok
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
+run_with_ngrok(app)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 GENRE_LIST = ['Poetry', 'Fantasy', 'Science Fiction', 'Mystery', 'Biography', 'Drama']
@@ -167,5 +169,4 @@ def display_image(filename):
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
     app.run()
