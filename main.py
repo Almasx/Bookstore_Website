@@ -5,10 +5,8 @@ from datetime import *
 from data.users import User
 from flask import *
 from flask_login import LoginManager, login_user, current_user, login_required, logout_user
-from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
 from data import db_session, users_api
 from data.db_session import create_session
-from flask import make_response
 from data.book import Book
 from data.genre import Genre
 from data.orders import Orders
