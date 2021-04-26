@@ -7,3 +7,5 @@ This website include:
 - Page to order book
 - Page to add book
 ###### Website is also responsive. Enjoy!👋
+local: first_version
+ngrok: VERSION_ngrok
